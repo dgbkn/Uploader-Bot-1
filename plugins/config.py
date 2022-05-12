@@ -2,10 +2,10 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = "5147335730:AAECZFZqCyKi3b_mxAsiVQU0sVgnu-AwAbI"
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = 5459324
+    API_HASH = "e41463b86cc9ef692b65489e665b0cc4"
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
@@ -29,13 +29,13 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = "1284483178"
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     # database session name, example: xurluploader
-    SESSION_NAME = os.environ.get("SESSION_NAME", "")
+    SESSION_NAME = "TELLYuploader"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = "mongodb+srv://devbkn:%40Anu123456@cluster0.31qt4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
     PRO_USERS.append(OWNER_ID)
