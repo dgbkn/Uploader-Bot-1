@@ -29,7 +29,7 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = "1284483178"
+    OWNER_ID = 1284483178
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     # database session name, example: xurluploader
